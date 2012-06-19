@@ -68,8 +68,7 @@ SECTIONS
   .gcc_except_table   : ONLY_IF_RO { *(.gcc_except_table .gcc_except_table.*) }
   /* Adjust the address for the data segment.  We want to align at exactly
      a page boundary to make life easier for apriori. */
-  . = ALIGN(4096);
-  . = DATA_SEGMENT_ALIGN(4096,4096);
+  . = ALIGN (CONSTANT (MAXPAGESIZE)); . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE));
   /* Exception handling  */
   .eh_frame       : ONLY_IF_RW { KEEP (*(.eh_frame)) }
   .gcc_except_table   : ONLY_IF_RW { *(.gcc_except_table .gcc_except_table.*) }

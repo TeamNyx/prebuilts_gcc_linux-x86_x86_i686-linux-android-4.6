@@ -2,7 +2,7 @@
 
     It has been auto-edited by fixincludes from:
 
-	"/home/andrewhsieh/internaldroid/ndk/toolchains/x86-4.6/prebuilt/linux-x86/sysroot/usr/include/stdio.h"
+	"/tmp/ndk-andrewhsieh/build/toolchain/prefix/sysroot/usr/include/stdio.h"
 
     This had to be done to correct non-standard usages in the
     original, manufacturer supplied header file.  */
