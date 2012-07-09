@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/andrewhsieh/internaldroid/ndk/toolchains/x86-4.6/prebuilt/linux-x86/libexec/gcc/i686-linux-android/4.6.x-google'
+libdir='/tmp/ndk-andrewhsieh/build/toolchain/prefix/libexec/gcc/i686-linux-android/4.6.x-google'
